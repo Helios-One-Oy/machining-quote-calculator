@@ -1,0 +1,15 @@
+{
+  "part": "NW-1042 bracket, 6061-T6, black anodize",
+  "material_price_per_lb": 4.50,
+  "blank_weight_lb": 1.85,
+  "markup": 0.30,
+  "operations": [
+    {"name": "CAM programming", "rate_per_hour": 95, "setup_min": 66.5, "run_min_per_part": 0},
+    {"name": "Mill, 3 setups", "rate_per_hour": 95, "setup_min": 90, "run_min_per_part": 13.3},
+    {"name": "Deburr", "rate_per_hour": 55, "setup_min": 5, "run_min_per_part": 3.5},
+    {"name": "Inspect", "rate_per_hour": 75, "setup_min": 17.5, "run_min_per_part": 0.8}
+  ],
+  "outside_processing": [
+    {"name": "Anodize Type II, black", "lot_charge": 150, "per_part": 0}
+  ]
+}
